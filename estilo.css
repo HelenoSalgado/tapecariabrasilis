@@ -198,6 +198,8 @@ main p{
   .borda{
     border: 1px solid #4345c2;
     border-radius: 15px;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
   }
   div.redesocial{
     height: auto;
@@ -241,13 +243,17 @@ main p{
     width: 100%;
     font-family: 'Josefin Slab', sans-serif;
     font-size: 1.3rem;
-    padding: 10px;
     text-align: center;
     background-color: rgba(15, 151, 33, 0.514);
     border-bottom: 1px solid gold;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   aside h4{
     font-size: 1rem;
+  }
+  .contato{
+    padding: 7px;
   }
   .contato a{
     color: #4345c2;
@@ -262,20 +268,17 @@ main p{
     color: #4345c2;
   }
   footer{
+    padding: 10px 5px;
     font-family: var(--font-primary);
     text-align: center;
     background-color: rgba(15, 151, 33, 0.514);
-    height: auto;
-    margin: 0;
-    padding: 7px 2px 2px 2px;
   }
   .whatsapp{
     position: fixed;
-    margin: 0;
-    right: 1%;
-    bottom: 2%;
-    z-index: 100;
+    right: -150px;
+    bottom: 10px;
   }
+  
 @media (max-width: 750px) {
   .servicos{
     display: block;
