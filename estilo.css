@@ -15,7 +15,7 @@ html, body{
 body{
   position: relative;
   font-size: 18px;
-  min-width: 330px; 
+  min-width: 320px; 
 }
 h1, h2, h4, h5{
   font-family: 'Monoton', cursiva;
@@ -271,6 +271,7 @@ main p{
   }
   .whatsapp{
     position: fixed;
+    margin: 0;
     right: 1%;
     bottom: 2%;
     z-index: 100;
