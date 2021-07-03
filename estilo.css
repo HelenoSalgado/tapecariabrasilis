@@ -6,6 +6,7 @@ html, body{
     margin: 0;
     border: 0;
     padding: 0;
+    scroll-behavior: smooth;
     overflow-x: hidden !important;
 }
 :root {
@@ -17,8 +18,9 @@ body{
   font-size: 18px;
   min-width: 320px; 
 }
-h1, h2, h4, h5{
+h2, h3, h4, h5{
   font-family: 'Monoton', cursiva;
+  letter-spacing: 2px;
 }
 header {
     position: relative;
@@ -35,6 +37,7 @@ header {
     left: 7%;
 }
 .logo h1{
+    font-family: 'Monoton', cursiva;
     max-width:330px;
     float:right;
     font-size: 2.5rem;
@@ -85,9 +88,6 @@ main{
 }
 main h2{
   margin-top: 40px;
-}
-h2, h3, h4, h5{
-    letter-spacing: 2px;
 }
 main p{
     font-family: var(--font-primary);
@@ -144,6 +144,15 @@ main p{
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
+  section #Sobre{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .sobre{
+    width: 70%;
+    margin: 7px auto;
+  }
   .servicos{
     position: relative;
     float: left;
@@ -198,7 +207,7 @@ main p{
   .borda{
     border: 1px solid #4345c2;
     border-radius: 15px;
-    margin: 10px 5px;
+    margin: 20px 5px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.596);
   }
   div.redesocial{
@@ -212,7 +221,7 @@ main p{
     margin-top: 50px;
   }
   .redesocial i{
-    color: #4345c2;
+    color: #0b0d3d;
     font-size: 2rem;
     transition: .1s ease-in;
   }
